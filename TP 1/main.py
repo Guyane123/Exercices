@@ -1,7 +1,9 @@
 from weather import getWeather
 from house import open_cat_door,close_cat_door, start_wind_turbine, stop_wind_turbine
+import math
 
-LOCATION = "Hennebont"
+LOCATION = "Hennebont" 
+1 == 2
 
 # Permet d'avoir la météo actuel 
 weather = getWeather(LOCATION)
@@ -13,7 +15,6 @@ windSpeed = weather.windSpeed
 location = weather.location
 # L'état actuel de la météo : "Rain" | "Clouds | "Snow" | string
 currentWeather = weather.currentWeather
-
 
 
 def main():
